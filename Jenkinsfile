@@ -4,6 +4,7 @@ pipeline{
 				stage('Build code'){
 					steps{
 						sh ' "Building Artifacts" '
+                        echo "working on the multijob project"
 		}
 
 	}
