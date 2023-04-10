@@ -8,6 +8,12 @@ pipeline{
 		}
 
 	}
+            stage ('Testing code'){
+                     steps{
+                        echo " I am learning develops"
+                        sh ' echo "testing my application with Sonarqube" '
+                     }
+    }
 			stage('Deploy code'){
 				steps{
 					sh ' echo "Deploy Code" ' 
