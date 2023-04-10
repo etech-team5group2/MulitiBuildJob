@@ -24,7 +24,7 @@ pipeline{
                     sh 'lscpu'
                     echo "this is the last stage in this file"
                     sh 'lsblk'
-                    sh 'This is Jenkins Module'
+                    sh ' echo "This is Jenkins Module " '
                 }
             }
 	}
